@@ -217,7 +217,7 @@ if prompt := st.chat_input("Digite sua mensagem sobre carreiras em TI..."):
             # Call Groq API if client is initialized
             if client:
                 response = client.chat.completions.create(
-                    model="openai/gpt-oss-120b",
+                    model="llama-3.1-8b-instant",
                     messages=messages_for_api,
                     max_tokens=5000,
                     temperature=0.7,
