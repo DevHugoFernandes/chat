@@ -4,11 +4,9 @@ import os
 from dotenv import load_dotenv
 import time
 
-# Load environment variables
-load_dotenv()
 
 # Get API key from environment variables
-api_key = os.environ.get("GROQ_API_KEY")
+api_key = st.secrets.get("GROQ_API_KEY")
 
 # For testing purposes, you can uncomment the next line and add your API key directly
 # api_key = "your_test_api_key_here"
