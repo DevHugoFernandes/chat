@@ -98,7 +98,7 @@ with st.sidebar:
     st.markdown("Sou seu assistente especializado em carreiras de tecnologia!")
 
 # Main content
-st.markdown('<h1 class="title">🤖 CarreiraTI - Assistente de Carreira em TI</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">🤖 CarreiraTI - Assistente de Carreira</h1>', unsafe_allow_html=True)
 st.markdown('<p style="text-align: center; color: #666;">Seu guia para carreiras em Tecnologia da Informação!</p>', unsafe_allow_html=True)
 
 # Display chat messages
